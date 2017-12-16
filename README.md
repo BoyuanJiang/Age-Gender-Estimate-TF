@@ -8,7 +8,7 @@ This is a TensorFlow implement of face age and gender estimation which first usi
 ![demo2](https://raw.githubusercontent.com/BoyuanJiang/Age-Gender-Estimate-TF/master/demo/demo2.jpg)
 
 ## Dependencies
-This project has following dependencies:
+This project has following dependencies and tested under CentOS7 with Python2.7.14
 
 - tensorflow==1.4
 - dlib==19.7.99
@@ -17,6 +17,7 @@ This project has following dependencies:
 - imutils==0.4.3
 - numpy==1.13.3
 - pandas==0.20.3
+
 
 ## Usage
 ### Make tfrecords
