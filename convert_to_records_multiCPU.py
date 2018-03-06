@@ -81,7 +81,7 @@ def convert_to(data_set, name, i, base_path, dataset_name):
     filename = os.path.join(tfrecords_path, name + '-%.3d' % i + '.tfrecords')
     print('Writing', filename)
     with tf.python_io.TFRecordWriter(filename) as writer:
-        for index in (range(num_examples)):
+        for index in range(num_examples):
             if face_score[index] < 0.75:
                 continue
             # if (~np.isnan(second_face_score[index])) and second_face_score[index] > 0.0:

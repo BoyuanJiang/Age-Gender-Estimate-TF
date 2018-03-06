@@ -2,6 +2,8 @@
 
 ---
 
+**UPDATE: There are some compatibility issues under python3 reported by others, recommend using python2 or you should adjust some codes manually**
+
 This is a TensorFlow implement of face age and gender estimation which first using dlib to detect and align faces in the picture and then using a deep CNN to estimate age and gender.As you can see below,this project can estimate more than one face in a picture at one time.
 
 ![demo1](https://raw.githubusercontent.com/BoyuanJiang/Age-Gender-Estimate-TF/master/demo/demo1.jpg)
@@ -90,7 +92,6 @@ python demo.py
 - [x] First version of project
 - [x] Code review and add some commits
 - [x] Add a readme doc
-- [ ] Try to use other lighter CNN
 - [x] Add a demo using pictures from web cam
 
 
